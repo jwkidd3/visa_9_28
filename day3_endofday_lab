@@ -1,13 +1,13 @@
 
 
 App
-2 Rest Services
+2 Rest Services (one for customers/one for purchases)
+For Each Service Code:
 -1 Controller
 -1 Service
 -1 DAO 
-1 Rest Service acting as the from end REST service
--Option: Use Rabbit to communicate with other 2 services
-Request->Controller->Service-DAO
+
+Request->Controller->Service->DAO
 Implement Crud operations for Customers/Purchases
 
 
